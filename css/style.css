@@ -1,0 +1,191 @@
+/*common start*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: sans-serif;
+	/*font-size: 16px;*/
+	/*font-weight: 400;*/
+	color: white;
+}
+
+
+/*common end*/
+
+/*header start*/
+
+header{
+	background-color: #121B2A;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	/*border: solid 1px red;*/
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	/border: solid 1px green;
+	float: left;
+	padding-top: 5px;
+
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 70%;
+	/*border: solid 1px green;*/
+	float: right;
+	margin-top: 65px;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+    float: left;
+    padding: 5px 25px;
+    display: block;
+}
+
+.menu ul li a{
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	transition: .5s;
+}
+
+.menu ul li:last-child{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #0177BD;
+}
+
+/*header end*/
+/*banner start*/
+
+.banner {
+	background-image: url(../images/bluebg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 550px;
+}
+
+.b-content {
+	width: 55%;
+	margin: 215px 0 0;
+}
+
+.b-content p:first-child{
+	font-size: 40px;
+    margin: 5px 0;
+}
+
+.b-content h1{
+	color: #0177BD;
+    font-size: 45px;
+    margin: 0;
+}
+
+.b-content p:nth-last-child(2){
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: 8px;
+}
+
+.b-content button{
+	border: none;
+    border-radius: 3px;
+    background-color: white;
+    padding: 15px 45px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: #5a5a5a;
+}
+
+.b-content span{
+	background-color: #0176BC;
+    border-radius: 50%;
+    padding: 1px 7px 3px 8px;
+    color: white;
+    margin-left: 12px;
+}
+
+/*banner end*/
+/*service start*/
+
+.service {
+	background-color: #121B2C;
+	padding: 75px 0;
+}
+
+.first {
+	/*border: solid 1px darkred;*/
+	width: 30%;
+    /*border-right: solid 1px white;*/
+    float: left;
+    padding: 0 1.63%;
+}
+
+.first:last-child{
+	border-right: 0;
+}
+
+.title {
+	overflow: hidden;
+}
+
+.icon {
+	width: 25%;
+	/*border: solid 1px green;*/
+	float: left;
+}
+
+.icon img{
+	width: 100%;
+}
+
+.i-content {
+	width: 70%;
+	/*border: solid 1px violet;*/
+	float: left;
+	margin: 20px 0 0 5px;
+}
+
+.dos{
+
+}
+
+.tres{
+	margin-top: 45px;
+}
+.i-content h1{
+}
+
+.i-content span{
+	color: #0177BD;
+}
+
+.paragraph{}
+
+.paragraph p{
+width: 100%;
+line-height: 25px;
+margin: 10px;
+}
+
+/*service end*/
